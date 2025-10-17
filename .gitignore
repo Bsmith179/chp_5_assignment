@@ -1,0 +1,42 @@
+# Android/Gradle specific
+.gradle/
+local.properties
+*.iml
+/build/
+**/build/
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.aab
+*.dex
+*.class
+*.log
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NDK
+obj/
+*.so
+
+# Jetpack Compose (if used)
+compose-metrics/
+compose-logs/
+
+# Keystore and security
+*.jks
+*.keystore
+
+# Kotlin
+*.kotlin_module
+
+# VS Code (optional)
+.vscode/
+
