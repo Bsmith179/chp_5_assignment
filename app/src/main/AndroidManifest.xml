@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab5_Bsmith1792">
         <activity
+            android:name=".ListItem5"
+            android:exported="false" />
+        <activity
+            android:name=".ListItem4"
+            android:exported="false" />
+        <activity
+            android:name=".ListItem3"
+            android:exported="false" />
+        <activity
+            android:name=".ListItem2"
+            android:exported="false" />
+        <activity
+            android:name=".ListItem1"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

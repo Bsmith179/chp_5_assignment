@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Lab5_Bsmith179-2</string>
+    <string name="image1">Image1</string>
+    <string name="image2">Image2</string>
+    <string name="image3">Image3</string>
 </resources>
