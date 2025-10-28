@@ -1,35 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/mainScrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ListItem3">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="374dp"
-        android:layout_height="207dp"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.208"
-        app:srcCompat="@drawable/MidnightSuns" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:id="@+id/Title3"
-        android:layout_width="315dp"
-        android:layout_height="55dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/tvTitle3"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/image4"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/midnightsuns" />
+
+        <TextView
+            android:id="@+id/best3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vtBest3"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/worst3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvWorst3"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btMoreInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btMoreInfo"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

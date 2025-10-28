@@ -1,9 +1,3 @@
-
-
-
-
-
-
 package com.example.lab5_bsmith179_2;
 
 import android.os.Bundle;

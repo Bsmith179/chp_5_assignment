@@ -1,6 +1,25 @@
 <resources>
-    <string name="app_name">Lab5_Bsmith179-2</string>
-    <string name="image1">Image1</string>
-    <string name="image2">Image2</string>
-    <string name="image3">Image3</string>
+    <string name="app_name">Video Game Recommendations</string>
+    <string name="image1">A game screenshot depicting the Fantastic Four as player characters, speaking to Deadpool and Cable. Deadpool is saying, “You know, DLC! “Deadpool Loves Cable”! You and me back together, Nate, just like the good old days!”</string>
+    <string name="image2">A follow up to the previous picture, a few more seconds into the conversation. Cable is saying, “We’re not partners, Wade. Never have been, never will be. Get that through your disease-addled brain” because he is rude and does not deserve Wade at all.</string>
+    <string name="image3">“Press Q to squeeze, E to let go”. A screenshot of Deadpool uh … greeting Cable after Nate tricks him into it with his whole ‘note I left pined to your chest with a knife while you were out’ thing.</string>
+    <string name="image4">Deadpool making heart hands at the player through the 4th wall. His dialogue reads, “…and I love you for who you are.”</string>
+    <string name="image5">LEGO Deadpool doing a lil dance after a player completes a bonus mission. Each of the 11 missions has a different dance.</string>
+    <string name="image6">The marketing preview image for Deadpool VR. Depicts a 3D Deadpool imaging tiny crayon doodles of flying money bags, rockets, and himself cutting a bad guy in half.</string>
+    <string name="tvTitle1">Marvel: Ultimate Alliance 3</string>
+    <string name="tvTitle2">Deadpool (2013)</string>
+    <string name="tvTitle3">Midnight Suns</string>
+    <string name="tvTitle4">Lego Marvel Super Heroes</string>
+    <string name="tvTitle5">Marvel\'s Deadpool VR</string>
+    <string name="tvBest1">The Best: ^ That’s it. That moment is the best there is at what it does, and what it does is make my hopes for a return to 2006-ere DADT soar</string>
+    <string name="tvBest2">The Best: Direct Your eyes upward to enjoy it again. 45 crisp United States Dollars bought you that vision.</string>
+    <string name="vtBest3">The Best: Look at him! Heart. Hands.  There isn’t a situation on this earth or any other where adding Deadpool isn’t the right choice. When your team isn’t out ending vampires by playing card games he lounges around the abbey in cozy clothes. 11/10 DLC.</string>
+    <string name="tvBest4">The Best: Deadpool narrates 11 comic-style bonus missions with objectives ranging from livening up a post-plot superhero victory party to making Doc Ock clean up the destroyed Bugle building. He’s also an end game playable character.</string>
+    <string name="tvBest5">The Best: After 12 years Deadpool finally gets his own game again.</string>
+    <string name="tvWorst1">The Worst: and then dash them expertly on the sharp, agonizing rocks of reality.  For the low, low cost of $20 USD you can add Cable to the game via the DLC, so he can immediately ruin everything with his stupid mouth and bad opinions.</string>
+    <string name="tvWorst2">The Worst: Piloting a giant Sentinel foot is hard. :c Also Cable spends 99% of his screentime whining at Wade and telling you what to do, then hauls his Omega-level telekinetic mutant ass back to the future instead of like, helping or anything. You can literally blow people’s minds right out with a though, I don’t care what “battles in the future, all of which hinge on what YOU do here, Wade” you have planned, pop a few mooks on your way through At LEAST.  You have forever to get there, it is literally time travel??</string>
+    <string name="tvWorst3">The Worst: No Cable, I had to flirt with Wade myself. On one hand, I did a better job. On the other hand, this should be an even more devastating blow to Nate’s ego, when the asexual does in 2 hours what you had 21 years to figure out. He still liked you after you chopped him into pieces and FedEx’d him back to Tolliver, how did you screw this up so badly, dude?</string>
+    <string name="tvWorst4">The Worst: He’s the second hardest character to unlock, behind an old lady whose superpowers involve hitting people with her handbag and dying at inopportune but plot-relevant moments to make Spider-Man sad.</string>
+    <string name="tvWorst5">The Worst: Too bad it’s not out yet. Also, it’s 3DVR so I’m sure the vertigo will be disabling, but so long as I can still draw breath, I am playing this game, I don’t care if I have to do it from the floor or an urgent care waiting room. I have waited so long for more DP content, the world cannot take this away from me.</string>
+    <string name="btMoreInfo">More Info</string>
 </resources>

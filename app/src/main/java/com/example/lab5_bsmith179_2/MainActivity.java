@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // List view setup
-        String[] attraction = new String[]{"Art Institute of Chicago", "Magnificent Mile", "Willis Tower", "Chicago Bean", "Water Tower"};
+        String[] attraction = new String[]{"Marvel: Ultimate Alliance 3", "Deadpool (2013)", "Midnight Suns", "Lego Marvel Super Heroes", "Marvel's Deadpool VR"};
         listView = findViewById(R.id.listView);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_checked, android.R.id.text1, attraction);
         listView.setAdapter(adapter);
