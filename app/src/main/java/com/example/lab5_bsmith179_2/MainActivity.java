@@ -1,7 +1,6 @@
 package com.example.lab5_bsmith179_2;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -43,28 +42,28 @@ public class MainActivity extends AppCompatActivity {
                 switch(position){
                     // Label the list options to reduce future confusion
                     case 0:
-                        // Open URL in browser window
-                        startActivity (new Intent(Intent.ACTION_VIEW, Uri.parse ("http://artic.edu ")));
+                        // MUA3
+                        startActivity(new Intent(MainActivity.this, ListItem1.class));
                         break;
 
                     case 1:
-                        // it goes here
-                        startActivity (new Intent(Intent.ACTION_VIEW, Uri.parse ("http://themagnificentmile.com ")));
+                        // Deadpool (2013)
+                        startActivity(new Intent(MainActivity.this, ListItem2.class));
                         break;
 
                     case 2:
-                        // it goes here
-
+                        // Midnight Suns
+                        startActivity(new Intent(MainActivity.this, ListItem3.class));
                         break;
 
                     case 3:
-                        // it goes here
-
+                        // LEGO Marvel Super Heroes
+                        startActivity(new Intent(MainActivity.this, ListItem4.class));
                         break;
 
                     case 4:
-                        // it goes here
-
+                        // Deadpool VR
+                        startActivity(new Intent(MainActivity.this, ListItem5.class));
                         break;
 
                 }
