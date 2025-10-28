@@ -23,7 +23,7 @@
             android:textSize="30sp" />
 
         <ImageView
-            android:id="@+id/image1"
+            android:id="@+id/image3"
             android:layout_width="match_parent"
             android:layout_height="207dp"
             android:layout_marginBottom="16dp"
@@ -47,13 +47,14 @@
             android:textSize="16sp"
             android:layout_marginBottom="24dp" />
 
+
         <Button
             android:id="@+id/btMoreInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/btMoreInfo"
-            android:textSize="16sp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 </ScrollView>

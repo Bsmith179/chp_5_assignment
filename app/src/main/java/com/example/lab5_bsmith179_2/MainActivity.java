@@ -29,11 +29,12 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayUseLogoEnabled(true);
         }
 
-        // List view setup
+        // List view setup BV
         String[] attraction = new String[]{"Marvel: Ultimate Alliance 3", "Deadpool (2013)", "Midnight Suns", "Lego Marvel Super Heroes", "Marvel's Deadpool VR"};
         listView = findViewById(R.id.listView);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_checked, android.R.id.text1, attraction);
         listView.setAdapter(adapter);
+        listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
 
         // Handle user interaction with the list
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -44,26 +45,31 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         // MUA3
                         startActivity(new Intent(MainActivity.this, ListItem1.class));
+                        listView.setItemChecked(position, true);
                         break;
 
                     case 1:
                         // Deadpool (2013)
                         startActivity(new Intent(MainActivity.this, ListItem2.class));
+                        listView.setItemChecked(position, true);
                         break;
 
                     case 2:
                         // Midnight Suns
                         startActivity(new Intent(MainActivity.this, ListItem3.class));
+                        listView.setItemChecked(position, true);
                         break;
 
                     case 3:
                         // LEGO Marvel Super Heroes
                         startActivity(new Intent(MainActivity.this, ListItem4.class));
+                        listView.setItemChecked(position, true);
                         break;
 
                     case 4:
                         // Deadpool VR
                         startActivity(new Intent(MainActivity.this, ListItem5.class));
+                        listView.setItemChecked(position, true);
                         break;
 
                 }

@@ -11,6 +11,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.material.switchmaterial.SwitchMaterial;
+
 public class ListItem4 extends AppCompatActivity {
 
     @Override
@@ -25,10 +27,14 @@ public class ListItem4 extends AppCompatActivity {
             return insets;
         });
 
+        SwitchMaterial markFinishedSwitch = findViewById(R.id.switchFinished);
+
         Button btMoreInfo = findViewById(R.id.btMoreInfo);
         btMoreInfo.setOnClickListener(v -> {
-            String url = "https://www.duckduckgo.com";
-            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+            String gameName = "LEGO MArvel Super Heroes";
+            String url = "https://www.google.com/search?q=" + Uri.encode(gameName + " review");
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+            startActivity(intent);
         });
     }
 }
