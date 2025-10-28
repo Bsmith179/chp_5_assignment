@@ -11,7 +11,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.google.android.material.switchmaterial.SwitchMaterial;
 
 public class ListItem3 extends AppCompatActivity {
 
