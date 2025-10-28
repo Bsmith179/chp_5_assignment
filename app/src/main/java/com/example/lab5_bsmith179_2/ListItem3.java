@@ -27,7 +27,6 @@ public class ListItem3 extends AppCompatActivity {
             return insets;
         });
 
-        SwitchMaterial markFinishedSwitch = findViewById(R.id.switchFinished);
 
         Button btMoreInfo = findViewById(R.id.btMoreInfo);
         btMoreInfo.setOnClickListener(v -> {

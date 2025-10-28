@@ -23,11 +23,10 @@ public class ListItem1 extends AppCompatActivity {
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars   .bottom);
             return insets;
         });
 
-        SwitchMaterial markFinishedSwitch = findViewById(R.id.switchFinished);
 
         Button btMoreInfo = findViewById(R.id.btMoreInfo);
         btMoreInfo.setOnClickListener(v -> {
